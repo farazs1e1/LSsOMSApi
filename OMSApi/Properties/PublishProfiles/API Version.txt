@@ -1,7 +1,0 @@
-1st octet year
-2nd octet quarter.
-3rd sprint. (or every UAT or production release.)
-4th change everytime. 
-
-OMS-API-Version = " 1.3.0.1"
-
