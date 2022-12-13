@@ -1,0 +1,72 @@
+<CommunicationConfiguration>
+	<ProtocolChannels>
+		<ProtocolChannelConfiguration>
+			<ProtocolTypeName>Client.Communication.ProtocolChannel.JsonChannel</ProtocolTypeName>
+			<Name>JsonChannel</Name>
+		</ProtocolChannelConfiguration>
+		<OEChannelConfiguration>
+			<ProtocolTypeName>Client.Communication.ProtocolChannel.OEChannel</ProtocolTypeName>
+			<Name>OEChannel</Name>
+			<EncodingName>ASCII</EncodingName>
+			<ProtocolMetaFileName>OEProtocolInfo.txt</ProtocolMetaFileName>
+		</OEChannelConfiguration>
+		<ProtocolChannelConfiguration>
+			<ProtocolTypeName>Client.Communication.ProtocolChannel.FlexBufferChannel</ProtocolTypeName>
+			<Name>FlexBuffer</Name>
+		</ProtocolChannelConfiguration>
+	</ProtocolChannels>
+	<EndPoints>
+		<StreamableQueryEndPointConfigurationOfStringExpandoObjectExpandoObjectExpandoObjectInt64>
+			<EndPointTypeName>Client.Communication.EndPoints.SubscriberEndPoint`5[[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089],[System.Dynamic.ExpandoObject, System.Core, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089],[System.Dynamic.ExpandoObject, System.Core, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089],[System.Dynamic.ExpandoObject, System.Core, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089],[System.Int64, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]</EndPointTypeName>
+			<Name>QueryEndPoint</Name>
+			<QueryEndPoint>tcp://oms-uat.vcttech.co:5056</QueryEndPoint>
+			<QueyTimeoutStr>00:01:00</QueyTimeoutStr>
+			<ProtocolChannelName>JsonChannel</ProtocolChannelName>
+			<StreamEndpoint>tcp://oms-uat.vcttech.co:5057</StreamEndpoint>
+			<HeartbeatIntervalStr>00:00:01</HeartbeatIntervalStr>
+			<RequestsKeySelectorStr>string(object(it).QueryKey)</RequestsKeySelectorStr>
+			<RequestsTypeSelectorStr>int(object(it).RequestType)</RequestsTypeSelectorStr>
+			<ReplyKeySelectorStr>string(object(it).QueryKey)</ReplyKeySelectorStr>
+			<ReplySeekInfoSelectorStr>long(object(it).SeekInfo)</ReplySeekInfoSelectorStr>
+			<ReplyResponseSelectorStr>ExpandoObject(object(it).Data)</ReplyResponseSelectorStr>
+		</StreamableQueryEndPointConfigurationOfStringExpandoObjectExpandoObjectExpandoObjectInt64>
+
+		<StreamableQueryEndPointConfigurationOfStringExpandoObjectExpandoObjectExpandoObjectInt64>
+			<EndPointTypeName>Client.Communication.EndPoints.SubscriberEndPoint`5[[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089],[System.Dynamic.ExpandoObject, System.Core, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089],[System.Dynamic.ExpandoObject, System.Core, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089],[System.Dynamic.ExpandoObject, System.Core, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089],[System.Int64, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]</EndPointTypeName>
+			<Name>LocateEndPoint</Name>
+			<QueryEndPoint>tcp://oms-uat.vcttech.co:6057</QueryEndPoint>
+			<QueyTimeoutStr>00:01:00</QueyTimeoutStr>
+			<ProtocolChannelName>JsonChannel</ProtocolChannelName>
+			<StreamEndpoint>tcp://oms-uat.vcttech.co:6058</StreamEndpoint>
+			<HeartbeatIntervalStr>00:00:01</HeartbeatIntervalStr>
+			<RequestsKeySelectorStr>string(object(it).QueryKey)</RequestsKeySelectorStr>
+			<ReplyKeySelectorStr>string(object(it).QueryKey)</ReplyKeySelectorStr>
+			<RequestsTypeSelectorStr>int(object(it).RequestType)</RequestsTypeSelectorStr>
+			<ReplySeekInfoSelectorStr>long(object(it).SeekInfo)</ReplySeekInfoSelectorStr>
+			<ReplyResponseSelectorStr>ExpandoObject(object(it).Data)</ReplyResponseSelectorStr>
+		</StreamableQueryEndPointConfigurationOfStringExpandoObjectExpandoObjectExpandoObjectInt64>
+
+		<QueryEndPointConfiguration>
+			<EndPointTypeName>Client.Communication.EndPoints.OrderExecEndPoint`1[[System.Dynamic.ExpandoObject, System.Core, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]</EndPointTypeName>
+			<Name>OrderExec</Name>
+			<QueryEndPoint>tcp://oms-uat.vcttech.co:10311</QueryEndPoint>
+			<QueyTimeoutStr>00:01:00</QueyTimeoutStr>
+			<ProtocolChannelName>OEChannel</ProtocolChannelName>
+		</QueryEndPointConfiguration>
+
+		<StreamableQueryEndPointConfigurationOfStringExpandoObjectExpandoObjectExpandoObjectInt64>
+			<EndPointTypeName>Client.Communication.EndPoints.SubscriberEndPoint`5[[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089],[System.Dynamic.ExpandoObject, System.Core, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089],[System.Dynamic.ExpandoObject, System.Core, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089],[System.Dynamic.ExpandoObject, System.Core, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089],[System.Int64, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]</EndPointTypeName>
+			<Name>StaticDataEndPoint</Name>
+			<QueryEndPoint>tcp://oms-uat.vcttech.co:5064</QueryEndPoint>
+			<QueyTimeoutStr>00:01:00</QueyTimeoutStr>
+			<ProtocolChannelName>JsonChannel</ProtocolChannelName>
+			<StreamEndpoint>tcp://oms-uat.vcttech.co:5065</StreamEndpoint>
+			<HeartbeatIntervalStr>00:00:01</HeartbeatIntervalStr>
+			<RequestsKeySelectorStr>string(object(it).QueryKey)</RequestsKeySelectorStr>
+			<ReplyKeySelectorStr>string(object(it).QueryKey)</ReplyKeySelectorStr>
+			<RequestsTypeSelectorStr>int(object(it).RequestType)</RequestsTypeSelectorStr>
+			<ReplySeekInfoSelectorStr>long(object(it).SeekInfo)</ReplySeekInfoSelectorStr>
+			<ReplyResponseSelectorStr>ExpandoObject(object(it).Data)</ReplyResponseSelectorStr>
+		</StreamableQueryEndPointConfigurationOfStringExpandoObjectExpandoObjectExpandoObjectInt64>
+	</EndPoints>
+</CommunicationConfiguration>
