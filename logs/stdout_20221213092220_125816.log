@@ -1,0 +1,239 @@
+2022-12-13 01:22:21,446  INFO ClientCommLogger.set_EndPointTypeName [31] - MESSAGE: Set EndPoint: Client.Communication.EndPoints.SubscriberEndPoint`5[[System.String, System.Private.CoreLib, Version=5.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Dynamic.ExpandoObject, System.Linq.Expressions, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a],[System.Dynamic.ExpandoObject, System.Linq.Expressions, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a],[System.Dynamic.ExpandoObject, System.Linq.Expressions, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a],[System.Int64, System.Private.CoreLib, Version=5.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
+ 2022-12-13 01:22:21,544  INFO ClientCommLogger.set_EndPointTypeName [31] - MESSAGE: Set EndPoint: Client.Communication.EndPoints.SubscriberEndPoint`5[[System.String, System.Private.CoreLib, Version=5.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Dynamic.ExpandoObject, System.Linq.Expressions, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a],[System.Dynamic.ExpandoObject, System.Linq.Expressions, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a],[System.Dynamic.ExpandoObject, System.Linq.Expressions, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a],[System.Int64, System.Private.CoreLib, Version=5.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
+ 2022-12-13 01:22:21,550  INFO ClientCommLogger.set_EndPointTypeName [31] - MESSAGE: Set EndPoint: Client.Communication.EndPoints.RequestPullEndPoint`3[[System.String, System.Private.CoreLib, Version=5.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Dynamic.ExpandoObject, System.Linq.Expressions, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a],[System.Dynamic.ExpandoObject, System.Linq.Expressions, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a]]
+ 2022-12-13 01:22:21,553  INFO ClientCommLogger.? [?] - MESSAGE: Initialize protocol channel.
+ 2022-12-13 01:22:21,554  INFO ClientCommLogger.AddChannel [85] - MESSAGE: Adding Channel: JsonChannel
+ 2022-12-13 01:22:21,556  INFO ClientCommLogger.AddChannel [85] - MESSAGE: Adding Channel: OEChannel
+ 2022-12-13 01:22:21,556  INFO ClientCommLogger.AddChannel [85] - MESSAGE: Adding Channel: FlexBuffer
+ Client.Communication.Configurations.StreamableQueryEndPointConfiguration`5[System.String,System.Dynamic.ExpandoObject,System.Dynamic.ExpandoObject,System.Dynamic.ExpandoObject,System.Int64]
+Client.Communication.Configurations.StreamableQueryEndPointConfiguration`5[System.String,System.Dynamic.ExpandoObject,System.Dynamic.ExpandoObject,System.Dynamic.ExpandoObject,System.Int64]
+Client.Communication.Configurations.RequestPullEndPointConfiguration`3[System.String,System.Dynamic.ExpandoObject,System.Dynamic.ExpandoObject]
+2022-12-13 01:22:21,563  INFO ClientCommLogger..ctor [80] - MESSAGE: Subscriber Endpoint.
+ 2022-12-13 01:22:21,564  INFO ClientCommLogger..ctor [88] - MESSAGE: [QueryEndPoint] Subscriber Endpoint.
+ 2022-12-13 01:22:21,565  INFO ClientCommLogger.GetChannel [91] - MESSAGE: Getting Channel for: JsonChannel
+ 2022-12-13 01:22:21,598  INFO ClientCommLogger.AddEndPoint [64] - MESSAGE: Adding Endpoint: QueryEndPoint
+ 2022-12-13 01:22:21,599  INFO ClientCommLogger..ctor [80] - MESSAGE: Subscriber Endpoint.
+ 2022-12-13 01:22:21,600  INFO ClientCommLogger..ctor [88] - MESSAGE: [StaticDataEndPoint] Subscriber Endpoint.
+ 2022-12-13 01:22:21,600  INFO ClientCommLogger.GetChannel [91] - MESSAGE: Getting Channel for: JsonChannel
+ 2022-12-13 01:22:21,604  INFO ClientCommLogger.AddEndPoint [64] - MESSAGE: Adding Endpoint: StaticDataEndPoint
+ 2022-12-13 01:22:21,617  INFO ClientCommLogger.AddEndPoint [64] - MESSAGE: Adding Endpoint: Logon
+ 2022-12-13 01:22:21,619  INFO ClientCommLogger.NetMQMonitor_Connected [544] - MESSAGE: [QueryEndPoint] Connected
+ 2022-12-13 01:22:21,619  INFO ClientCommLogger.NetMQMonitor_Connected [544] - MESSAGE: [StaticDataEndPoint] Connected
+ [01:22:21 DBG] Hosting starting
+[01:22:21 INF] User profile is available. Using 'C:\Windows\system32\config\systemprofile\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+[01:22:21 DBG] Reading data from file 'C:\Windows\system32\config\systemprofile\AppData\Local\ASP.NET\DataProtection-Keys\key-1b6ab4f5-8eb7-497f-99b4-c9b96e30d3b8.xml'.
+[01:22:21 DBG] Found key {1b6ab4f5-8eb7-497f-99b4-c9b96e30d3b8}.
+[01:22:21 DBG] Considering key {1b6ab4f5-8eb7-497f-99b4-c9b96e30d3b8} with expiration date 2023-03-06 12:37:22Z as default key.
+[01:22:21 DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=5.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+[01:22:21 DBG] Decrypting secret element using Windows DPAPI.
+[01:22:21 DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=5.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+[01:22:21 DBG] Opening CNG algorithm 'AES' from provider 'null' with chaining mode CBC.
+[01:22:21 DBG] Opening CNG algorithm 'SHA256' from provider 'null' with HMAC.
+[01:22:21 DBG] Using key {1b6ab4f5-8eb7-497f-99b4-c9b96e30d3b8} as the default key.
+[01:22:21 DBG] Key ring with default key {1b6ab4f5-8eb7-497f-99b4-c9b96e30d3b8} was loaded during application startup.
+[01:22:21 DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+[01:22:21 INF] Starting IdentityServer4 version 4.1.1+cebd52f5bc61bdefc262fd20739d4d087c6f961f
+[01:22:21 INF] You are using the in-memory version of the persisted grant store. This will store consent decisions, authorization codes, refresh and reference tokens in memory only. If you are using any of those features in production, you want to switch to a different store implementation.
+[01:22:21 INF] Using the default authentication scheme Bearer for IdentityServer
+[01:22:21 INF] Authentication scheme Bearer is configured for IdentityServer, but it is not a scheme that supports signin (like cookies). If you support interactive logins via the browser, then a cookie-based scheme should be used.
+[01:22:21 DBG] Using Bearer as default ASP.NET Core scheme for authentication
+[01:22:21 DBG] Using Bearer as default ASP.NET Core scheme for sign-in
+[01:22:21 DBG] Using Bearer as default ASP.NET Core scheme for sign-out
+[01:22:21 DBG] Using Bearer as default ASP.NET Core scheme for challenge
+[01:22:21 DBG] Using Bearer as default ASP.NET Core scheme for forbid
+[01:22:22 DBG] Loaded hosting startup assembly OmsConfiguratorApi
+[01:22:22 INF] Application started. Press Ctrl+C to shut down.
+[01:22:22 INF] Hosting environment: Production
+[01:22:22 INF] Content root path: F:\MyOMSServers\OMSConfigurator\API
+[01:22:22 DBG] Hosting started
+[01:22:22 INF] Request starting HTTP/1.1 GET http://localhost:45365/ - -
+[01:22:22 DBG] Wildcard detected, all requests with hosts will be allowed.
+[01:22:22 VRB] All hosts are allowed.
+[01:22:22 DBG] No candidates found for the request path '/'
+[01:22:22 DBG] Request did not match any endpoints
+[01:22:22 INF] [Requested] { RequestId = 55b25fdd-a472-4832-bd37-4840ea9a52f4, MachineIpAddress = ::1, ClientInitiatedTimeStamp = , ServerInitiatedRequestTimeStamp = 13/12/2022 09:22:22:054 }
+[01:22:22 VRB] HandleAuthenticateAsync called
+[01:22:22 DBG] AuthenticationScheme: Bearer was not authenticated.
+[01:22:22 DBG] AuthenticationScheme: Bearer was not authenticated.
+[01:22:22 VRB] No endpoint entry found for request path: /
+[01:22:22 DBG] AuthenticationScheme: Bearer was not authenticated.
+[01:22:22 DBG] The request path  does not match the path filter
+[01:22:22 INF] [Respond] { RequestId = 55b25fdd-a472-4832-bd37-4840ea9a52f4, ClientInitiatedTimeStamp = , ServerInitiatedRequestTimeStamp = 13/12/2022 09:22:22:054, ServerRespondTimeStamp = 13/12/2022 09:22:22:089 }
+[01:22:22 INF] Request finished HTTP/1.1 GET http://localhost:45365/ - - - 404 - - 80.8834ms
+[01:22:30 INF] Request starting HTTP/1.1 GET http://localhost:45365/swagger.html - -
+[01:22:30 VRB] All hosts are allowed.
+[01:22:30 DBG] No candidates found for the request path '/swagger.html'
+[01:22:30 DBG] Request did not match any endpoints
+[01:22:30 INF] [Requested] { RequestId = a026a443-f7d6-4c07-8706-0ebb9dd90932, MachineIpAddress = ::1, ClientInitiatedTimeStamp = , ServerInitiatedRequestTimeStamp = 13/12/2022 09:22:30:343 }
+[01:22:30 VRB] HandleAuthenticateAsync called
+[01:22:30 DBG] AuthenticationScheme: Bearer was not authenticated.
+[01:22:30 DBG] AuthenticationScheme: Bearer was not authenticated.
+[01:22:30 VRB] No endpoint entry found for request path: /swagger.html
+[01:22:30 DBG] AuthenticationScheme: Bearer was not authenticated.
+[01:22:30 DBG] The request path  does not match the path filter
+[01:22:30 INF] [Respond] { RequestId = a026a443-f7d6-4c07-8706-0ebb9dd90932, ClientInitiatedTimeStamp = , ServerInitiatedRequestTimeStamp = 13/12/2022 09:22:30:343, ServerRespondTimeStamp = 13/12/2022 09:22:30:347 }
+[01:22:30 INF] Request finished HTTP/1.1 GET http://localhost:45365/swagger.html - - - 404 - - 5.3716ms
+[01:22:37 INF] Request starting HTTP/1.1 GET http://localhost:45365/swagger.html - -
+[01:22:37 VRB] All hosts are allowed.
+[01:22:37 DBG] No candidates found for the request path '/swagger.html'
+[01:22:37 DBG] Request did not match any endpoints
+[01:22:37 INF] [Requested] { RequestId = 622893f0-3565-4096-921b-dab313a010cb, MachineIpAddress = ::1, ClientInitiatedTimeStamp = , ServerInitiatedRequestTimeStamp = 13/12/2022 09:22:37:859 }
+[01:22:37 VRB] HandleAuthenticateAsync called
+[01:22:37 DBG] AuthenticationScheme: Bearer was not authenticated.
+[01:22:37 DBG] AuthenticationScheme: Bearer was not authenticated.
+[01:22:37 VRB] No endpoint entry found for request path: /swagger.html
+[01:22:37 DBG] AuthenticationScheme: Bearer was not authenticated.
+[01:22:37 DBG] The request path  does not match the path filter
+[01:22:37 INF] [Respond] { RequestId = 622893f0-3565-4096-921b-dab313a010cb, ClientInitiatedTimeStamp = , ServerInitiatedRequestTimeStamp = 13/12/2022 09:22:37:859, ServerRespondTimeStamp = 13/12/2022 09:22:37:862 }
+[01:22:37 INF] Request finished HTTP/1.1 GET http://localhost:45365/swagger.html - - - 404 - - 3.6620ms
+[01:22:44 INF] Request starting HTTP/1.1 GET http://localhost:45365/swagger - -
+[01:22:44 VRB] All hosts are allowed.
+[01:22:44 DBG] No candidates found for the request path '/swagger'
+[01:22:44 DBG] Request did not match any endpoints
+[01:22:44 INF] [Requested] { RequestId = b88650c1-4601-47e4-a293-69d8c91a3561, MachineIpAddress = ::1, ClientInitiatedTimeStamp = , ServerInitiatedRequestTimeStamp = 13/12/2022 09:22:44:719 }
+[01:22:44 VRB] HandleAuthenticateAsync called
+[01:22:44 DBG] AuthenticationScheme: Bearer was not authenticated.
+[01:22:44 DBG] AuthenticationScheme: Bearer was not authenticated.
+[01:22:44 VRB] No endpoint entry found for request path: /swagger
+[01:22:44 DBG] AuthenticationScheme: Bearer was not authenticated.
+[01:22:44 INF] [Respond] { RequestId = b88650c1-4601-47e4-a293-69d8c91a3561, ClientInitiatedTimeStamp = , ServerInitiatedRequestTimeStamp = 13/12/2022 09:22:44:719, ServerRespondTimeStamp = 13/12/2022 09:22:44:72 }
+[01:22:44 INF] Request finished HTTP/1.1 GET http://localhost:45365/swagger - - - 301 - - 1.4993ms
+[01:22:44 INF] Request starting HTTP/1.1 GET http://localhost:45365/swagger/index.html - -
+[01:22:44 VRB] All hosts are allowed.
+[01:22:44 DBG] No candidates found for the request path '/swagger/index.html'
+[01:22:44 DBG] Request did not match any endpoints
+[01:22:44 INF] [Requested] { RequestId = 256636e2-f579-4e92-9399-cd6ed7154ff0, MachineIpAddress = ::1, ClientInitiatedTimeStamp = , ServerInitiatedRequestTimeStamp = 13/12/2022 09:22:44:724 }
+[01:22:44 VRB] HandleAuthenticateAsync called
+[01:22:44 DBG] AuthenticationScheme: Bearer was not authenticated.
+[01:22:44 DBG] AuthenticationScheme: Bearer was not authenticated.
+[01:22:44 VRB] No endpoint entry found for request path: /swagger/index.html
+[01:22:44 DBG] AuthenticationScheme: Bearer was not authenticated.
+[01:22:44 INF] [Respond] { RequestId = 256636e2-f579-4e92-9399-cd6ed7154ff0, ClientInitiatedTimeStamp = , ServerInitiatedRequestTimeStamp = 13/12/2022 09:22:44:724, ServerRespondTimeStamp = 13/12/2022 09:22:44:775 }
+[01:22:44 INF] Request finished HTTP/1.1 GET http://localhost:45365/swagger/index.html - - - 200 - text/html;charset=utf-8 54.3357ms
+[01:22:44 INF] Request starting HTTP/1.1 GET http://localhost:45365/swagger/swagger-ui.css - -
+[01:22:44 VRB] All hosts are allowed.
+[01:22:44 DBG] No candidates found for the request path '/swagger/swagger-ui.css'
+[01:22:44 DBG] Request did not match any endpoints
+[01:22:44 INF] [Requested] { RequestId = b35eca8a-6cf6-455c-b6f5-0da06edab3b2, MachineIpAddress = ::1, ClientInitiatedTimeStamp = , ServerInitiatedRequestTimeStamp = 13/12/2022 09:22:44:782 }
+[01:22:44 VRB] HandleAuthenticateAsync called
+[01:22:44 DBG] AuthenticationScheme: Bearer was not authenticated.
+[01:22:44 DBG] AuthenticationScheme: Bearer was not authenticated.
+[01:22:44 VRB] No endpoint entry found for request path: /swagger/swagger-ui.css
+[01:22:44 DBG] AuthenticationScheme: Bearer was not authenticated.
+[01:22:44 INF] Request starting HTTP/1.1 GET http://localhost:45365/swagger/swagger-ui-bundle.js - -
+[01:22:44 VRB] Range header's value is empty.
+[01:22:44 VRB] All hosts are allowed.
+[01:22:44 DBG] No candidates found for the request path '/swagger/swagger-ui-bundle.js'
+[01:22:44 DBG] Request did not match any endpoints
+[01:22:44 INF] [Requested] { RequestId = 0fa29351-a1fb-4d93-af3d-be3c44eafabc, MachineIpAddress = ::1, ClientInitiatedTimeStamp = , ServerInitiatedRequestTimeStamp = 13/12/2022 09:22:44:785 }
+[01:22:44 VRB] HandleAuthenticateAsync called
+[01:22:44 DBG] AuthenticationScheme: Bearer was not authenticated.
+[01:22:44 DBG] AuthenticationScheme: Bearer was not authenticated.
+[01:22:44 VRB] No endpoint entry found for request path: /swagger/swagger-ui-bundle.js
+[01:22:44 DBG] AuthenticationScheme: Bearer was not authenticated.
+[01:22:44 VRB] Range header's value is empty.
+[01:22:44 INF] Request starting HTTP/1.1 GET http://localhost:45365/swagger/swagger-ui-standalone-preset.js - -
+[01:22:44 VRB] All hosts are allowed.
+[01:22:44 DBG] No candidates found for the request path '/swagger/swagger-ui-standalone-preset.js'
+[01:22:44 DBG] Request did not match any endpoints
+[01:22:44 INF] [Requested] { RequestId = 8eeca5c0-b9f3-47e5-abcf-c965ffc4517a, MachineIpAddress = ::1, ClientInitiatedTimeStamp = , ServerInitiatedRequestTimeStamp = 13/12/2022 09:22:44:798 }
+[01:22:44 VRB] HandleAuthenticateAsync called
+[01:22:44 DBG] AuthenticationScheme: Bearer was not authenticated.
+[01:22:44 DBG] AuthenticationScheme: Bearer was not authenticated.
+[01:22:44 VRB] No endpoint entry found for request path: /swagger/swagger-ui-standalone-preset.js
+[01:22:44 DBG] AuthenticationScheme: Bearer was not authenticated.
+[01:22:44 VRB] Range header's value is empty.
+[01:22:44 INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+[01:22:44 INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+[01:22:44 INF] [Respond] { RequestId = b35eca8a-6cf6-455c-b6f5-0da06edab3b2, ClientInitiatedTimeStamp = , ServerInitiatedRequestTimeStamp = 13/12/2022 09:22:44:782, ServerRespondTimeStamp = 13/12/2022 09:22:44:787 }
+[01:22:44 INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+[01:22:44 INF] Request finished HTTP/1.1 GET http://localhost:45365/swagger/swagger-ui.css - - - 200 142933 text/css 24.5230ms
+[01:22:44 INF] [Respond] { RequestId = 8eeca5c0-b9f3-47e5-abcf-c965ffc4517a, ClientInitiatedTimeStamp = , ServerInitiatedRequestTimeStamp = 13/12/2022 09:22:44:798, ServerRespondTimeStamp = 13/12/2022 09:22:44:799 }
+[01:22:44 INF] Request finished HTTP/1.1 GET http://localhost:45365/swagger/swagger-ui-standalone-preset.js - - - 200 311804 application/javascript 9.0863ms
+[01:22:44 INF] [Respond] { RequestId = 0fa29351-a1fb-4d93-af3d-be3c44eafabc, ClientInitiatedTimeStamp = , ServerInitiatedRequestTimeStamp = 13/12/2022 09:22:44:785, ServerRespondTimeStamp = 13/12/2022 09:22:44:787 }
+[01:22:44 INF] Request finished HTTP/1.1 GET http://localhost:45365/swagger/swagger-ui-bundle.js - - - 200 986342 application/javascript 24.7740ms
+[01:22:44 INF] Request starting HTTP/1.1 GET http://localhost:45365/swagger/favicon-32x32.png - -
+[01:22:44 VRB] All hosts are allowed.
+[01:22:44 DBG] No candidates found for the request path '/swagger/favicon-32x32.png'
+[01:22:44 DBG] Request did not match any endpoints
+[01:22:44 INF] [Requested] { RequestId = 7f44db31-0f5b-4f36-b50f-a50b0f52551a, MachineIpAddress = ::1, ClientInitiatedTimeStamp = , ServerInitiatedRequestTimeStamp = 13/12/2022 09:22:44:952 }
+[01:22:44 VRB] HandleAuthenticateAsync called
+[01:22:44 DBG] AuthenticationScheme: Bearer was not authenticated.
+[01:22:44 DBG] AuthenticationScheme: Bearer was not authenticated.
+[01:22:44 VRB] No endpoint entry found for request path: /swagger/favicon-32x32.png
+[01:22:44 DBG] AuthenticationScheme: Bearer was not authenticated.
+[01:22:44 VRB] Range header's value is empty.
+[01:22:44 INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+[01:22:44 INF] [Respond] { RequestId = 7f44db31-0f5b-4f36-b50f-a50b0f52551a, ClientInitiatedTimeStamp = , ServerInitiatedRequestTimeStamp = 13/12/2022 09:22:44:952, ServerRespondTimeStamp = 13/12/2022 09:22:44:952 }
+[01:22:44 INF] Request finished HTTP/1.1 GET http://localhost:45365/swagger/favicon-32x32.png - - - 200 628 image/png 0.8128ms
+[01:24:22 DBG] HttpMessageHandler expired after 120000ms for client 'IdentityServer:BackChannelLogoutClient'
+[01:24:32 DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+[01:24:32 DBG] Ending HttpMessageHandler cleanup cycle after 0.0291ms - processed: 0 items - remaining: 1 items
+[01:24:42 DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+[01:24:42 DBG] Ending HttpMessageHandler cleanup cycle after 0.0021ms - processed: 0 items - remaining: 1 items
+[01:24:52 DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+[01:24:52 DBG] Ending HttpMessageHandler cleanup cycle after 0.0013ms - processed: 0 items - remaining: 1 items
+[01:25:02 DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+[01:25:02 DBG] Ending HttpMessageHandler cleanup cycle after 0.0013ms - processed: 0 items - remaining: 1 items
+[01:25:12 DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+[01:25:12 DBG] Ending HttpMessageHandler cleanup cycle after 0.0011ms - processed: 0 items - remaining: 1 items
+[01:25:22 DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+[01:25:22 DBG] Ending HttpMessageHandler cleanup cycle after 0.0012ms - processed: 0 items - remaining: 1 items
+[01:25:32 DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+[01:25:32 DBG] Ending HttpMessageHandler cleanup cycle after 0.0013ms - processed: 0 items - remaining: 1 items
+[01:25:42 DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+[01:25:42 DBG] Ending HttpMessageHandler cleanup cycle after 0.0013ms - processed: 0 items - remaining: 1 items
+[01:25:52 DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+[01:25:52 DBG] Ending HttpMessageHandler cleanup cycle after 0.0169ms - processed: 0 items - remaining: 1 items
+[01:26:02 DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+[01:26:02 DBG] Ending HttpMessageHandler cleanup cycle after 0.0011ms - processed: 0 items - remaining: 1 items
+[01:26:12 DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+[01:26:12 DBG] Ending HttpMessageHandler cleanup cycle after 0.0012ms - processed: 0 items - remaining: 1 items
+[01:26:22 DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+[01:26:22 DBG] Ending HttpMessageHandler cleanup cycle after 0.0012ms - processed: 0 items - remaining: 1 items
+[01:26:32 DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+[01:26:32 DBG] Ending HttpMessageHandler cleanup cycle after 0.0014ms - processed: 0 items - remaining: 1 items
+[01:26:42 DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+[01:26:42 DBG] Ending HttpMessageHandler cleanup cycle after 0.0011ms - processed: 0 items - remaining: 1 items
+[01:26:52 DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+[01:26:52 DBG] Ending HttpMessageHandler cleanup cycle after 0.0015ms - processed: 0 items - remaining: 1 items
+[01:27:02 DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+[01:27:02 DBG] Ending HttpMessageHandler cleanup cycle after 0.0011ms - processed: 0 items - remaining: 1 items
+[01:27:12 DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+[01:27:12 DBG] Ending HttpMessageHandler cleanup cycle after 0.0011ms - processed: 0 items - remaining: 1 items
+[01:27:22 DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+[01:27:22 DBG] Ending HttpMessageHandler cleanup cycle after 0.0011ms - processed: 0 items - remaining: 1 items
+[01:27:32 DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+[01:27:32 DBG] Ending HttpMessageHandler cleanup cycle after 0.0017ms - processed: 0 items - remaining: 1 items
+[01:27:42 DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+[01:27:42 DBG] Ending HttpMessageHandler cleanup cycle after 0.0017ms - processed: 0 items - remaining: 1 items
+[01:27:52 DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+[01:27:52 DBG] Ending HttpMessageHandler cleanup cycle after 0.0016ms - processed: 0 items - remaining: 1 items
+[01:28:02 DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+[01:28:02 DBG] Ending HttpMessageHandler cleanup cycle after 0.0017ms - processed: 0 items - remaining: 1 items
+[01:28:12 DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+[01:28:12 DBG] Ending HttpMessageHandler cleanup cycle after 0.0013ms - processed: 0 items - remaining: 1 items
+[01:28:22 DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+[01:28:22 DBG] Ending HttpMessageHandler cleanup cycle after 0.0014ms - processed: 0 items - remaining: 1 items
+[01:28:32 DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+[01:28:32 DBG] Ending HttpMessageHandler cleanup cycle after 0.0011ms - processed: 0 items - remaining: 1 items
+[01:28:42 DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+[01:28:42 DBG] Ending HttpMessageHandler cleanup cycle after 0.0013ms - processed: 0 items - remaining: 1 items
+[01:28:52 DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+[01:28:52 DBG] Ending HttpMessageHandler cleanup cycle after 0.0012ms - processed: 0 items - remaining: 1 items
+[01:29:02 DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+[01:29:02 DBG] Ending HttpMessageHandler cleanup cycle after 0.0012ms - processed: 0 items - remaining: 1 items
+[01:29:12 DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+[01:29:12 DBG] Ending HttpMessageHandler cleanup cycle after 0.0014ms - processed: 0 items - remaining: 1 items
+[01:29:22 DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+[01:29:22 DBG] Ending HttpMessageHandler cleanup cycle after 0.0015ms - processed: 0 items - remaining: 1 items
+[01:29:32 DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+[01:29:32 DBG] Ending HttpMessageHandler cleanup cycle after 0.0018ms - processed: 0 items - remaining: 1 items
+[01:29:42 DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+[01:29:42 DBG] Ending HttpMessageHandler cleanup cycle after 0.0014ms - processed: 0 items - remaining: 1 items
+[01:29:52 DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+[01:29:52 DBG] Ending HttpMessageHandler cleanup cycle after 0.0009ms - processed: 0 items - remaining: 1 items
+[01:30:02 DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+[01:30:02 DBG] Ending HttpMessageHandler cleanup cycle after 0.0009ms - processed: 0 items - remaining: 1 items
+[01:30:12 DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+[01:30

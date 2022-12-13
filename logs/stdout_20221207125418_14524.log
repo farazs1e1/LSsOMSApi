@@ -1,0 +1,360 @@
+2022-12-07 04:54:19,213  INFO ClientCommLogger.set_EndPointTypeName [31] - MESSAGE: Set EndPoint: Client.Communication.EndPoints.SubscriberEndPoint`5[[System.String, System.Private.CoreLib, Version=5.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Dynamic.ExpandoObject, System.Linq.Expressions, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a],[System.Dynamic.ExpandoObject, System.Linq.Expressions, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a],[System.Dynamic.ExpandoObject, System.Linq.Expressions, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a],[System.Int64, System.Private.CoreLib, Version=5.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
+ 2022-12-07 04:54:19,317  INFO ClientCommLogger.set_EndPointTypeName [31] - MESSAGE: Set EndPoint: Client.Communication.EndPoints.SubscriberEndPoint`5[[System.String, System.Private.CoreLib, Version=5.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Dynamic.ExpandoObject, System.Linq.Expressions, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a],[System.Dynamic.ExpandoObject, System.Linq.Expressions, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a],[System.Dynamic.ExpandoObject, System.Linq.Expressions, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a],[System.Int64, System.Private.CoreLib, Version=5.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
+ 2022-12-07 04:54:19,322  INFO ClientCommLogger.set_EndPointTypeName [31] - MESSAGE: Set EndPoint: Client.Communication.EndPoints.RequestPullEndPoint`3[[System.String, System.Private.CoreLib, Version=5.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Dynamic.ExpandoObject, System.Linq.Expressions, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a],[System.Dynamic.ExpandoObject, System.Linq.Expressions, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a]]
+ 2022-12-07 04:54:19,326  INFO ClientCommLogger.? [?] - MESSAGE: Initialize protocol channel.
+ 2022-12-07 04:54:19,327  INFO ClientCommLogger.AddChannel [85] - MESSAGE: Adding Channel: JsonChannel
+ 2022-12-07 04:54:19,328  INFO ClientCommLogger.AddChannel [85] - MESSAGE: Adding Channel: OEChannel
+ 2022-12-07 04:54:19,328  INFO ClientCommLogger.AddChannel [85] - MESSAGE: Adding Channel: FlexBuffer
+ Client.Communication.Configurations.StreamableQueryEndPointConfiguration`5[System.String,System.Dynamic.ExpandoObject,System.Dynamic.ExpandoObject,System.Dynamic.ExpandoObject,System.Int64]
+Client.Communication.Configurations.StreamableQueryEndPointConfiguration`5[System.String,System.Dynamic.ExpandoObject,System.Dynamic.ExpandoObject,System.Dynamic.ExpandoObject,System.Int64]
+Client.Communication.Configurations.RequestPullEndPointConfiguration`3[System.String,System.Dynamic.ExpandoObject,System.Dynamic.ExpandoObject]
+2022-12-07 04:54:19,335  INFO ClientCommLogger..ctor [80] - MESSAGE: Subscriber Endpoint.
+ 2022-12-07 04:54:19,336  INFO ClientCommLogger..ctor [88] - MESSAGE: [QueryEndPoint] Subscriber Endpoint.
+ 2022-12-07 04:54:19,336  INFO ClientCommLogger.GetChannel [91] - MESSAGE: Getting Channel for: JsonChannel
+ 2022-12-07 04:54:19,372  INFO ClientCommLogger.AddEndPoint [64] - MESSAGE: Adding Endpoint: QueryEndPoint
+ 2022-12-07 04:54:19,373  INFO ClientCommLogger..ctor [80] - MESSAGE: Subscriber Endpoint.
+ 2022-12-07 04:54:19,373  INFO ClientCommLogger..ctor [88] - MESSAGE: [StaticDataEndPoint] Subscriber Endpoint.
+ 2022-12-07 04:54:19,374  INFO ClientCommLogger.GetChannel [91] - MESSAGE: Getting Channel for: JsonChannel
+ 2022-12-07 04:54:19,377  INFO ClientCommLogger.AddEndPoint [64] - MESSAGE: Adding Endpoint: StaticDataEndPoint
+ 2022-12-07 04:54:19,385  INFO ClientCommLogger.AddEndPoint [64] - MESSAGE: Adding Endpoint: Logon
+ 2022-12-07 04:54:19,395  INFO ClientCommLogger.NetMQMonitor_Connected [544] - MESSAGE: [StaticDataEndPoint] Connected
+ 2022-12-07 04:54:19,395  INFO ClientCommLogger.NetMQMonitor_Connected [544] - MESSAGE: [QueryEndPoint] Connected
+ [04:54:19 DBG] Hosting starting
+[04:54:19 INF] User profile is available. Using 'C:\Windows\system32\config\systemprofile\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+[04:54:19 DBG] Reading data from file 'C:\Windows\system32\config\systemprofile\AppData\Local\ASP.NET\DataProtection-Keys\key-1b6ab4f5-8eb7-497f-99b4-c9b96e30d3b8.xml'.
+[04:54:19 DBG] Found key {1b6ab4f5-8eb7-497f-99b4-c9b96e30d3b8}.
+[04:54:19 DBG] Considering key {1b6ab4f5-8eb7-497f-99b4-c9b96e30d3b8} with expiration date 2023-03-06 12:37:22Z as default key.
+[04:54:19 DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=5.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+[04:54:19 DBG] Decrypting secret element using Windows DPAPI.
+[04:54:19 DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=5.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+[04:54:19 DBG] Opening CNG algorithm 'AES' from provider 'null' with chaining mode CBC.
+[04:54:19 DBG] Opening CNG algorithm 'SHA256' from provider 'null' with HMAC.
+[04:54:19 DBG] Using key {1b6ab4f5-8eb7-497f-99b4-c9b96e30d3b8} as the default key.
+[04:54:19 DBG] Key ring with default key {1b6ab4f5-8eb7-497f-99b4-c9b96e30d3b8} was loaded during application startup.
+[04:54:19 DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+[04:54:19 INF] Starting IdentityServer4 version 4.1.1+cebd52f5bc61bdefc262fd20739d4d087c6f961f
+[04:54:19 INF] You are using the in-memory version of the persisted grant store. This will store consent decisions, authorization codes, refresh and reference tokens in memory only. If you are using any of those features in production, you want to switch to a different store implementation.
+[04:54:19 INF] Using the default authentication scheme Bearer for IdentityServer
+[04:54:19 INF] Authentication scheme Bearer is configured for IdentityServer, but it is not a scheme that supports signin (like cookies). If you support interactive logins via the browser, then a cookie-based scheme should be used.
+[04:54:19 DBG] Using Bearer as default ASP.NET Core scheme for authentication
+[04:54:19 DBG] Using Bearer as default ASP.NET Core scheme for sign-in
+[04:54:19 DBG] Using Bearer as default ASP.NET Core scheme for sign-out
+[04:54:19 DBG] Using Bearer as default ASP.NET Core scheme for challenge
+[04:54:19 DBG] Using Bearer as default ASP.NET Core scheme for forbid
+[04:54:19 DBG] Loaded hosting startup assembly OmsConfiguratorApi
+[04:54:19 INF] Application started. Press Ctrl+C to shut down.
+[04:54:19 INF] Hosting environment: Production
+[04:54:19 INF] Content root path: F:\MyOMSServers\OMSConfigurator\API
+[04:54:19 DBG] Hosting started
+[04:54:19 INF] Request starting HTTP/1.1 GET http://localhost:45365/swagger/index.html - -
+[04:54:19 DBG] Wildcard detected, all requests with hosts will be allowed.
+[04:54:19 VRB] All hosts are allowed.
+[04:54:19 DBG] No candidates found for the request path '/swagger/index.html'
+[04:54:19 DBG] Request did not match any endpoints
+[04:54:19 INF] [Requested] { RequestId = b2415ed9-69c5-44f5-8f48-0919eef5051c, MachineIpAddress = ::1, ClientInitiatedTimeStamp = , ServerInitiatedRequestTimeStamp = 07/12/2022 12:54:19:838 }
+[04:54:19 VRB] HandleAuthenticateAsync called
+[04:54:19 DBG] AuthenticationScheme: Bearer was not authenticated.
+[04:54:19 DBG] AuthenticationScheme: Bearer was not authenticated.
+[04:54:19 VRB] No endpoint entry found for request path: /swagger/index.html
+[04:54:19 DBG] AuthenticationScheme: Bearer was not authenticated.
+[04:54:19 INF] [Respond] { RequestId = b2415ed9-69c5-44f5-8f48-0919eef5051c, ClientInitiatedTimeStamp = , ServerInitiatedRequestTimeStamp = 07/12/2022 12:54:19:838, ServerRespondTimeStamp = 07/12/2022 12:54:19:918 }
+[04:54:19 INF] Request finished HTTP/1.1 GET http://localhost:45365/swagger/index.html - - - 200 - text/html;charset=utf-8 133.6878ms
+[04:54:19 INF] Request starting HTTP/1.1 GET http://localhost:45365/swagger/swagger-ui-bundle.js - -
+[04:54:19 INF] Request starting HTTP/1.1 GET http://localhost:45365/swagger/swagger-ui.css - -
+[04:54:19 VRB] All hosts are allowed.
+[04:54:19 VRB] All hosts are allowed.
+[04:54:19 DBG] No candidates found for the request path '/swagger/swagger-ui-bundle.js'
+[04:54:19 DBG] No candidates found for the request path '/swagger/swagger-ui.css'
+[04:54:19 DBG] Request did not match any endpoints
+[04:54:19 DBG] Request did not match any endpoints
+[04:54:19 INF] [Requested] { RequestId = e24c2751-b980-45cd-be42-38275f8a2319, MachineIpAddress = ::1, ClientInitiatedTimeStamp = , ServerInitiatedRequestTimeStamp = 07/12/2022 12:54:19:935 }
+[04:54:19 INF] [Requested] { RequestId = 98c9ef2c-fec0-4bb2-8bbc-5804bbee97b8, MachineIpAddress = ::1, ClientInitiatedTimeStamp = , ServerInitiatedRequestTimeStamp = 07/12/2022 12:54:19:935 }
+[04:54:19 INF] Request starting HTTP/1.1 GET http://localhost:45365/swagger/swagger-ui-standalone-preset.js - -
+[04:54:19 VRB] All hosts are allowed.
+[04:54:19 DBG] No candidates found for the request path '/swagger/swagger-ui-standalone-preset.js'
+[04:54:19 DBG] Request did not match any endpoints
+[04:54:19 INF] [Requested] { RequestId = 65275670-5c97-43d4-bbdc-d8fce75c9ec0, MachineIpAddress = ::1, ClientInitiatedTimeStamp = , ServerInitiatedRequestTimeStamp = 07/12/2022 12:54:19:936 }
+[04:54:19 VRB] HandleAuthenticateAsync called
+[04:54:19 VRB] HandleAuthenticateAsync called
+[04:54:19 VRB] HandleAuthenticateAsync called
+[04:54:19 DBG] AuthenticationScheme: Bearer was not authenticated.
+[04:54:19 DBG] AuthenticationScheme: Bearer was not authenticated.
+[04:54:19 DBG] AuthenticationScheme: Bearer was not authenticated.
+[04:54:19 DBG] AuthenticationScheme: Bearer was not authenticated.
+[04:54:19 DBG] AuthenticationScheme: Bearer was not authenticated.
+[04:54:19 DBG] AuthenticationScheme: Bearer was not authenticated.
+[04:54:19 VRB] No endpoint entry found for request path: /swagger/swagger-ui-standalone-preset.js
+[04:54:19 VRB] No endpoint entry found for request path: /swagger/swagger-ui-bundle.js
+[04:54:19 VRB] No endpoint entry found for request path: /swagger/swagger-ui.css
+[04:54:19 DBG] AuthenticationScheme: Bearer was not authenticated.
+[04:54:19 DBG] AuthenticationScheme: Bearer was not authenticated.
+[04:54:19 DBG] AuthenticationScheme: Bearer was not authenticated.
+[04:54:19 VRB] Range header's value is empty.
+[04:54:19 VRB] Range header's value is empty.
+[04:54:19 VRB] Range header's value is empty.
+[04:54:19 INF] The file /swagger-ui.css was not modified
+[04:54:19 DBG] Handled. Status code: 304 File: /swagger-ui.css
+[04:54:19 INF] [Respond] { RequestId = e24c2751-b980-45cd-be42-38275f8a2319, ClientInitiatedTimeStamp = , ServerInitiatedRequestTimeStamp = 07/12/2022 12:54:19:935, ServerRespondTimeStamp = 07/12/2022 12:54:19:947 }
+[04:54:19 INF] Request finished HTTP/1.1 GET http://localhost:45365/swagger/swagger-ui.css - - - 304 - text/css 13.4298ms
+[04:54:19 INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+[04:54:19 INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+[04:54:19 INF] [Respond] { RequestId = 65275670-5c97-43d4-bbdc-d8fce75c9ec0, ClientInitiatedTimeStamp = , ServerInitiatedRequestTimeStamp = 07/12/2022 12:54:19:936, ServerRespondTimeStamp = 07/12/2022 12:54:19:944 }
+[04:54:19 INF] Request finished HTTP/1.1 GET http://localhost:45365/swagger/swagger-ui-standalone-preset.js - - - 200 311804 application/javascript 22.3388ms
+[04:54:19 INF] [Respond] { RequestId = 98c9ef2c-fec0-4bb2-8bbc-5804bbee97b8, ClientInitiatedTimeStamp = , ServerInitiatedRequestTimeStamp = 07/12/2022 12:54:19:935, ServerRespondTimeStamp = 07/12/2022 12:54:19:944 }
+[04:54:19 INF] Request finished HTTP/1.1 GET http://localhost:45365/swagger/swagger-ui-bundle.js - - - 200 986342 application/javascript 26.0978ms
+[04:54:20 INF] Request starting HTTP/1.1 GET http://localhost:45365/swagger/v1/swagger.json - -
+[04:54:20 VRB] All hosts are allowed.
+[04:54:20 DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+[04:54:20 DBG] Request did not match any endpoints
+[04:54:20 INF] [Requested] { RequestId = 5b577df3-52e2-4df7-9512-7c0317386965, MachineIpAddress = ::1, ClientInitiatedTimeStamp = , ServerInitiatedRequestTimeStamp = 07/12/2022 12:54:20:1 }
+[04:54:20 VRB] HandleAuthenticateAsync called
+[04:54:20 DBG] AuthenticationScheme: Bearer was not authenticated.
+[04:54:20 DBG] AuthenticationScheme: Bearer was not authenticated.
+[04:54:20 VRB] No endpoint entry found for request path: /swagger/v1/swagger.json
+[04:54:20 DBG] AuthenticationScheme: Bearer was not authenticated.
+[04:54:20 INF] Request starting HTTP/1.1 GET http://localhost:45365/swagger/favicon-32x32.png - -
+[04:54:20 VRB] All hosts are allowed.
+[04:54:20 DBG] No candidates found for the request path '/swagger/favicon-32x32.png'
+[04:54:20 DBG] Request did not match any endpoints
+[04:54:20 INF] [Requested] { RequestId = 5977be1f-b530-400f-8b8d-becc2199bd0a, MachineIpAddress = ::1, ClientInitiatedTimeStamp = , ServerInitiatedRequestTimeStamp = 07/12/2022 12:54:20:104 }
+[04:54:20 VRB] HandleAuthenticateAsync called
+[04:54:20 DBG] AuthenticationScheme: Bearer was not authenticated.
+[04:54:20 DBG] AuthenticationScheme: Bearer was not authenticated.
+[04:54:20 VRB] No endpoint entry found for request path: /swagger/favicon-32x32.png
+[04:54:20 DBG] AuthenticationScheme: Bearer was not authenticated.
+[04:54:20 VRB] Range header's value is empty.
+[04:54:20 INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+[04:54:20 INF] [Respond] { RequestId = 5977be1f-b530-400f-8b8d-becc2199bd0a, ClientInitiatedTimeStamp = , ServerInitiatedRequestTimeStamp = 07/12/2022 12:54:20:104, ServerRespondTimeStamp = 07/12/2022 12:54:20:104 }
+[04:54:20 INF] Request finished HTTP/1.1 GET http://localhost:45365/swagger/favicon-32x32.png - - - 200 628 image/png 1.1753ms
+[04:54:20 INF] [Respond] { RequestId = 5b577df3-52e2-4df7-9512-7c0317386965, ClientInitiatedTimeStamp = , ServerInitiatedRequestTimeStamp = 07/12/2022 12:54:20:1, ServerRespondTimeStamp = 07/12/2022 12:54:20:228 }
+[04:54:20 INF] Request finished HTTP/1.1 GET http://localhost:45365/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 134.3928ms
+[04:56:19 DBG] HttpMessageHandler expired after 120000ms for client 'IdentityServer:BackChannelLogoutClient'
+[04:56:29 DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+[04:56:29 DBG] Ending HttpMessageHandler cleanup cycle after 0.0634ms - processed: 0 items - remaining: 1 items
+[04:56:39 DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+[04:56:39 DBG] Ending HttpMessageHandler cleanup cycle after 0.003ms - processed: 0 items - remaining: 1 items
+[04:56:49 DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+[04:56:49 DBG] Ending HttpMessageHandler cleanup cycle after 0.0023ms - processed: 0 items - remaining: 1 items
+[04:56:59 DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+[04:56:59 DBG] Ending HttpMessageHandler cleanup cycle after 0.0024ms - processed: 0 items - remaining: 1 items
+[04:57:09 DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+[04:57:09 DBG] Ending HttpMessageHandler cleanup cycle after 0.0022ms - processed: 0 items - remaining: 1 items
+[04:57:19 DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+[04:57:19 DBG] Ending HttpMessageHandler cleanup cycle after 0.0028ms - processed: 0 items - remaining: 1 items
+[04:57:29 DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+[04:57:29 DBG] Ending HttpMessageHandler cleanup cycle after 0.003ms - processed: 0 items - remaining: 1 items
+[04:57:39 DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+[04:57:39 DBG] Ending HttpMessageHandler cleanup cycle after 0.0038ms - processed: 0 items - remaining: 1 items
+[04:57:49 DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+[04:57:49 DBG] Ending HttpMessageHandler cleanup cycle after 0.0053ms - processed: 0 items - remaining: 1 items
+[04:57:59 DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+[04:57:59 DBG] Ending HttpMessageHandler cleanup cycle after 0.0052ms - processed: 0 items - remaining: 1 items
+[04:58:09 DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+[04:58:09 DBG] Ending HttpMessageHandler cleanup cycle after 0.0058ms - processed: 0 items - remaining: 1 items
+[04:58:19 DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+[04:58:19 DBG] Ending HttpMessageHandler cleanup cycle after 0.005ms - processed: 0 items - remaining: 1 items
+[04:58:29 DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+[04:58:29 DBG] Ending HttpMessageHandler cleanup cycle after 0.006ms - processed: 0 items - remaining: 1 items
+[04:58:39 DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+[04:58:39 DBG] Ending HttpMessageHandler cleanup cycle after 0.0051ms - processed: 0 items - remaining: 1 items
+[04:58:49 DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+[04:58:49 DBG] Ending HttpMessageHandler cleanup cycle after 0.0056ms - processed: 0 items - remaining: 1 items
+[04:58:59 DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+[04:58:59 DBG] Ending HttpMessageHandler cleanup cycle after 0.0047ms - processed: 0 items - remaining: 1 items
+[04:59:09 DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+[04:59:09 DBG] Ending HttpMessageHandler cleanup cycle after 0.0049ms - processed: 0 items - remaining: 1 items
+[04:59:19 DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+[04:59:19 DBG] Ending HttpMessageHandler cleanup cycle after 0.0052ms - processed: 0 items - remaining: 1 items
+[04:59:29 DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+[04:59:29 DBG] Ending HttpMessageHandler cleanup cycle after 0.0021ms - processed: 0 items - remaining: 1 items
+[04:59:39 DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+[04:59:39 DBG] Ending HttpMessageHandler cleanup cycle after 0.0049ms - processed: 0 items - remaining: 1 items
+[04:59:49 DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+[04:59:49 DBG] Ending HttpMessageHandler cleanup cycle after 0.0024ms - processed: 0 items - remaining: 1 items
+[04:59:59 DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+[04:59:59 DBG] Ending HttpMessageHandler cleanup cycle after 0.0032ms - processed: 0 items - remaining: 1 items
+[05:00:09 DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+[05:00:09 DBG] Ending HttpMessageHandler cleanup cycle after 0.0051ms - processed: 0 items - remaining: 1 items
+[05:00:19 DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+[05:00:19 DBG] Ending HttpMessageHandler cleanup cycle after 0.0046ms - processed: 0 items - remaining: 1 items
+[05:00:29 DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+[05:00:29 DBG] Ending HttpMessageHandler cleanup cycle after 0.0045ms - processed: 0 items - remaining: 1 items
+[05:00:39 DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+[05:00:39 DBG] Ending HttpMessageHandler cleanup cycle after 0.0048ms - processed: 0 items - remaining: 1 items
+[05:00:49 DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+[05:00:49 DBG] Ending HttpMessageHandler cleanup cycle after 0.0029ms - processed: 0 items - remaining: 1 items
+[05:00:59 DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+[05:00:59 DBG] Ending HttpMessageHandler cleanup cycle after 0.0023ms - processed: 0 items - remaining: 1 items
+[05:01:09 DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+[05:01:09 DBG] Ending HttpMessageHandler cleanup cycle after 0.0047ms - processed: 0 items - remaining: 1 items
+[05:01:19 DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+[05:01:19 DBG] Ending HttpMessageHandler cleanup cycle after 0.0037ms - processed: 0 items - remaining: 1 items
+[05:01:29 DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+[05:01:29 DBG] Ending HttpMessageHandler cleanup cycle after 0.0026ms - processed: 0 items - remaining: 1 items
+[05:01:39 DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+[05:01:39 DBG] Ending HttpMessageHandler cleanup cycle after 0.0009ms - processed: 0 items - remaining: 1 items
+[05:01:49 DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+[05:01:49 DBG] Ending HttpMessageHandler cleanup cycle after 0.001ms - processed: 0 items - remaining: 1 items
+[05:01:59 DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+[05:01:59 DBG] Ending HttpMessageHandler cleanup cycle after 0.0011ms - processed: 0 items - remaining: 1 items
+[05:02:09 DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+[05:02:09 DBG] Ending HttpMessageHandler cleanup cycle after 0.0013ms - processed: 0 items - remaining: 1 items
+[05:02:19 DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+[05:02:19 DBG] Ending HttpMessageHandler cleanup cycle after 0.0009ms - processed: 0 items - remaining: 1 items
+[05:02:29 DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+[05:02:29 DBG] Ending HttpMessageHandler cleanup cycle after 0.0011ms - processed: 0 items - remaining: 1 items
+[05:02:39 DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+[05:02:39 DBG] Ending HttpMessageHandler cleanup cycle after 0.0012ms - processed: 0 items - remaining: 1 items
+[05:02:49 DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+[05:02:49 DBG] Ending HttpMessageHandler cleanup cycle after 0.0013ms - processed: 0 items - remaining: 1 items
+[05:02:59 DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+[05:02:59 DBG] Ending HttpMessageHandler cleanup cycle after 0.0014ms - processed: 0 items - remaining: 1 items
+[05:03:09 DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+[05:03:09 DBG] Ending HttpMessageHandler cleanup cycle after 0.001ms - processed: 0 items - remaining: 1 items
+[05:03:19 DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+[05:03:19 DBG] Ending HttpMessageHandler cleanup cycle after 0.0009ms - processed: 0 items - remaining: 1 items
+[05:03:29 DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+[05:03:29 DBG] Ending HttpMessageHandler cleanup cycle after 0.0014ms - processed: 0 items - remaining: 1 items
+[05:03:39 DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+[05:03:39 DBG] Ending HttpMessageHandler cleanup cycle after 0.001ms - processed: 0 items - remaining: 1 items
+[05:03:49 DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+[05:03:49 DBG] Ending HttpMessageHandler cleanup cycle after 0.001ms - processed: 0 items - remaining: 1 items
+[05:03:59 DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+[05:03:59 DBG] Ending HttpMessageHandler cleanup cycle after 0.0011ms - processed: 0 items - remaining: 1 items
+[05:04:09 DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+[05:04:09 DBG] Ending HttpMessageHandler cleanup cycle after 0.0014ms - processed: 0 items - remaining: 1 items
+[05:04:19 DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+[05:04:19 DBG] Ending HttpMessageHandler cleanup cycle after 0.0011ms - processed: 0 items - remaining: 1 items
+[05:04:29 DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+[05:04:29 DBG] Ending HttpMessageHandler cleanup cycle after 0.0008ms - processed: 0 items - remaining: 1 items
+[05:04:39 DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+[05:04:39 DBG] Ending HttpMessageHandler cleanup cycle after 0.0011ms - processed: 0 items - remaining: 1 items
+[05:04:49 DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+[05:04:49 DBG] Ending HttpMessageHandler cleanup cycle after 0.0011ms - processed: 0 items - remaining: 1 items
+[05:04:59 DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+[05:04:59 DBG] Ending HttpMessageHandler cleanup cycle after 0.0012ms - processed: 0 items - remaining: 1 items
+[05:05:09 DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+[05:05:09 DBG] Ending HttpMessageHandler cleanup cycle after 0.0023ms - processed: 0 items - remaining: 1 items
+[05:05:19 DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+[05:05:19 DBG] Ending HttpMessageHandler cleanup cycle after 0.0013ms - processed: 0 items - remaining: 1 items
+[05:05:29 DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+[05:05:29 DBG] Ending HttpMessageHandler cleanup cycle after 0.001ms - processed: 0 items - remaining: 1 items
+[05:05:39 DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+[05:05:39 DBG] Ending HttpMessageHandler cleanup cycle after 0.0017ms - processed: 0 items - remaining: 1 items
+[05:05:49 DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+[05:05:49 DBG] Ending HttpMessageHandler cleanup cycle after 0.0009ms - processed: 0 items - remaining: 1 items
+[05:05:59 DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+[05:05:59 DBG] Ending HttpMessageHandler cleanup cycle after 0.0028ms - processed: 0 items - remaining: 1 items
+[05:06:09 DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+[05:06:09 DBG] Ending HttpMessageHandler cleanup cycle after 0.002ms - processed: 0 items - remaining: 1 items
+[05:06:19 DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+[05:06:19 DBG] Ending HttpMessageHandler cleanup cycle after 0.002ms - processed: 0 items - remaining: 1 items
+[05:06:29 DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+[05:06:29 DBG] Ending HttpMessageHandler cleanup cycle after 0.0023ms - processed: 0 items - remaining: 1 items
+[05:06:39 DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+[05:06:39 DBG] Ending HttpMessageHandler cleanup cycle after 0.0024ms - processed: 0 items - remaining: 1 items
+[05:06:49 DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+[05:06:49 DBG] Ending HttpMessageHandler cleanup cycle after 0.0027ms - processed: 0 items - remaining: 1 items
+[05:06:59 DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+[05:06:59 DBG] Ending HttpMessageHandler cleanup cycle after 0.0023ms - processed: 0 items - remaining: 1 items
+[05:07:09 DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+[05:07:09 DBG] Ending HttpMessageHandler cleanup cycle after 0.0021ms - processed: 0 items - remaining: 1 items
+[05:07:19 DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+[05:07:19 DBG] Ending HttpMessageHandler cleanup cycle after 0.0023ms - processed: 0 items - remaining: 1 items
+[05:07:29 DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+[05:07:29 DBG] Ending HttpMessageHandler cleanup cycle after 0.0023ms - processed: 0 items - remaining: 1 items
+[05:07:39 DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+[05:07:39 DBG] Ending HttpMessageHandler cleanup cycle after 0.0022ms - processed: 0 items - remaining: 1 items
+[05:07:49 DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+[05:07:49 DBG] Ending HttpMessageHandler cleanup cycle after 0.0022ms - processed: 0 items - remaining: 1 items
+[05:07:59 DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+[05:07:59 DBG] Ending HttpMessageHandler cleanup cycle after 0.0015ms - processed: 0 items - remaining: 1 items
+[05:08:09 DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+[05:08:09 DBG] Ending HttpMessageHandler cleanup cycle after 0.002ms - processed: 0 items - remaining: 1 items
+[05:08:19 DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+[05:08:19 DBG] Ending HttpMessageHandler cleanup cycle after 0.0009ms - processed: 0 items - remaining: 1 items
+[05:08:29 DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+[05:08:29 DBG] Ending HttpMessageHandler cleanup cycle after 0.001ms - processed: 0 items - remaining: 1 items
+[05:08:39 DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+[05:08:39 DBG] Ending HttpMessageHandler cleanup cycle after 0.0024ms - processed: 0 items - remaining: 1 items
+[05:08:49 DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+[05:08:49 DBG] Ending HttpMessageHandler cleanup cycle after 0.0016ms - processed: 0 items - remaining: 1 items
+[05:08:59 DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+[05:08:59 DBG] Ending HttpMessageHandler cleanup cycle after 0.0019ms - processed: 0 items - remaining: 1 items
+[05:09:09 DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+[05:09:09 DBG] Ending HttpMessageHandler cleanup cycle after 0.0021ms - processed: 0 items - remaining: 1 items
+[05:09:19 DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+[05:09:19 DBG] Ending HttpMessageHandler cleanup cycle after 0.0024ms - processed: 0 items - remaining: 1 items
+[05:09:29 DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+[05:09:29 DBG] Ending HttpMessageHandler cleanup cycle after 0.001ms - processed: 0 items - remaining: 1 items
+[05:09:39 DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+[05:09:39 DBG] Ending HttpMessageHandler cleanup cycle after 0.002ms - processed: 0 items - remaining: 1 items
+[05:09:49 DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+[05:09:49 DBG] Ending HttpMessageHandler cleanup cycle after 0.0024ms - processed: 0 items - remaining: 1 items
+[05:09:59 DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+[05:09:59 DBG] Ending HttpMessageHandler cleanup cycle after 0.0022ms - processed: 0 items - remaining: 1 items
+[05:10:09 DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+[05:10:09 DBG] Ending HttpMessageHandler cleanup cycle after 0.0011ms - processed: 0 items - remaining: 1 items
+[05:10:19 DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+[05:10:19 DBG] Ending HttpMessageHandler cleanup cycle after 0.0011ms - processed: 0 items - remaining: 1 items
+[05:10:29 DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+[05:10:29 DBG] Ending HttpMessageHandler cleanup cycle after 0.0025ms - processed: 0 items - remaining: 1 items
+[05:10:39 DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+[05:10:39 DBG] Ending HttpMessageHandler cleanup cycle after 0.0023ms - processed: 0 items - remaining: 1 items
+[05:10:49 DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+[05:10:49 DBG] Ending HttpMessageHandler cleanup cycle after 0.0023ms - processed: 0 items - remaining: 1 items
+[05:10:59 DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+[05:10:59 DBG] Ending HttpMessageHandler cleanup cycle after 0.0023ms - processed: 0 items - remaining: 1 items
+[05:11:09 DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+[05:11:09 DBG] Ending HttpMessageHandler cleanup cycle after 0.0022ms - processed: 0 items - remaining: 1 items
+[05:11:19 DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+[05:11:19 DBG] Ending HttpMessageHandler cleanup cycle after 0.002ms - processed: 0 items - remaining: 1 items
+[05:11:29 DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+[05:11:29 DBG] Ending HttpMessageHandler cleanup cycle after 0.0021ms - processed: 0 items - remaining: 1 items
+[05:11:39 DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+[05:11:39 DBG] Ending HttpMessageHandler cleanup cycle after 0.002ms - processed: 0 items - remaining: 1 items
+[05:11:49 DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+[05:11:49 DBG] Ending HttpMessageHandler cleanup cycle after 0.002ms - processed: 0 items - remaining: 1 items
+[05:11:59 DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+[05:11:59 DBG] Ending HttpMessageHandler cleanup cycle after 0.0021ms - processed: 0 items - remaining: 1 items
+[05:12:09 DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+[05:12:09 DBG] Ending HttpMessageHandler cleanup cycle after 0.0023ms - processed: 0 items - remaining: 1 items
+[05:12:19 DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+[05:12:19 DBG] Ending HttpMessageHandler cleanup cycle after 0.0021ms - processed: 0 items - remaining: 1 items
+[05:12:29 DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+[05:12:29 DBG] Ending HttpMessageHandler cleanup cycle after 0.002ms - processed: 0 items - remaining: 1 items
+[05:12:39 DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+[05:12:39 DBG] Ending HttpMessageHandler cleanup cycle after 0.0019ms - processed: 0 items - remaining: 1 items
+[05:12:49 DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+[05:12:49 DBG] Ending HttpMessageHandler cleanup cycle after 0.0025ms - processed: 0 items - remaining: 1 items
+[05:12:59 DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+[05:12:59 DBG] Ending HttpMessageHandler cleanup cycle after 0.0023ms - processed: 0 items - remaining: 1 items
+[05:13:09 DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+[05:13:09 DBG] Ending HttpMessageHandler cleanup cycle after 0.0025ms - processed: 0 items - remaining: 1 items
+[05:13:19 DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+[05:13:19 DBG] Ending HttpMessageHandler cleanup cycle after 0.0025ms - processed: 0 items - remaining: 1 items
+[05:13:29 DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+[05:13:29 DBG] Ending HttpMessageHandler cleanup cycle after 0.0024ms - processed: 0 items - remaining: 1 items
+[05:13:39 DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+[05:13:39 DBG] Ending HttpMessageHandler cleanup cycle after 0.002ms - processed: 0 items - remaining: 1 items
+[05:13:49 DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+[05:13:49 DBG] Ending HttpMessageHandler cleanup cycle after 0.002ms - processed: 0 items - remaining: 1 items
+[05:13:59 DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+[05:13:59 DBG] Ending HttpMessageHandler cleanup cycle after 0.0021ms - processed: 0 items - remaining: 1 items
+[05:14:10 DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+[05:14:10 DBG] Ending HttpMessageHandler cleanup cycle after 0.0022ms - processed: 0 items - remaining: 1 items
+[05:14:20 DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+[05:14:20 DBG] Ending HttpMessageHandler cleanup cycle after 0.0024ms - processed: 0 items - remaining: 1 items
+[05:14:30 DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+[05:14:30 DBG] Ending HttpMessageHandler cleanup cycle after 0.0021ms - processed: 0 items - remaining: 1 items
+[05:14:40 DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+[05:14:40 DBG] Ending HttpMessageHandler cleanup cycle after 0.0024ms - processed: 0 items - remaining: 1 items
+[05:14:50 DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+[05:14:50 DBG] Ending HttpMessageHandler cleanup cycle after 0.002ms - processed: 0 items - remaining: 1 items
+[05:15:00 DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+[05:15:00 DBG] Ending HttpMessageHandler cleanup cycle after 0.0022ms - processed: 0 items - remaining: 1 items
+[05:15:10 DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+[05:15:10 DBG] Ending HttpMessageHandler cleanup cycle after 0.0023ms - processed: 0 items - remaining: 1 items
+[05:15:18 INF] Application is shutting down...
+[05:15:18 DBG] Hosting stopping
+[05:15:18 DBG] Hosting stopped

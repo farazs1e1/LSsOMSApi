@@ -1,0 +1,18 @@
+01:22:21.446 [1] INFO EndPointConfiguration -> Set EndPoint: Client.Communication.EndPoints.SubscriberEndPoint`5[[System.String, System.Private.CoreLib, Version=5.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Dynamic.ExpandoObject, System.Linq.Expressions, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a],[System.Dynamic.ExpandoObject, System.Linq.Expressions, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a],[System.Dynamic.ExpandoObject, System.Linq.Expressions, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a],[System.Int64, System.Private.CoreLib, Version=5.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
+01:22:21.544 [1] INFO EndPointConfiguration -> Set EndPoint: Client.Communication.EndPoints.SubscriberEndPoint`5[[System.String, System.Private.CoreLib, Version=5.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Dynamic.ExpandoObject, System.Linq.Expressions, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a],[System.Dynamic.ExpandoObject, System.Linq.Expressions, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a],[System.Dynamic.ExpandoObject, System.Linq.Expressions, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a],[System.Int64, System.Private.CoreLib, Version=5.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
+01:22:21.550 [1] INFO EndPointConfiguration -> Set EndPoint: Client.Communication.EndPoints.RequestPullEndPoint`3[[System.String, System.Private.CoreLib, Version=5.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Dynamic.ExpandoObject, System.Linq.Expressions, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a],[System.Dynamic.ExpandoObject, System.Linq.Expressions, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a]]
+01:22:21.553 [1] INFO ? -> Initialize protocol channel.
+01:22:21.554 [1] INFO ProtocolChannelManager -> Adding Channel: JsonChannel
+01:22:21.556 [1] INFO ProtocolChannelManager -> Adding Channel: OEChannel
+01:22:21.556 [1] INFO ProtocolChannelManager -> Adding Channel: FlexBuffer
+01:22:21.563 [1] INFO SubscriberEndPoint`5 -> Subscriber Endpoint.
+01:22:21.564 [1] INFO SubscriberEndPoint`5 -> [QueryEndPoint] Subscriber Endpoint.
+01:22:21.565 [1] INFO ProtocolChannelManager -> Getting Channel for: JsonChannel
+01:22:21.598 [1] INFO EndPointManager -> Adding Endpoint: QueryEndPoint
+01:22:21.599 [1] INFO SubscriberEndPoint`5 -> Subscriber Endpoint.
+01:22:21.600 [1] INFO SubscriberEndPoint`5 -> [StaticDataEndPoint] Subscriber Endpoint.
+01:22:21.600 [1] INFO ProtocolChannelManager -> Getting Channel for: JsonChannel
+01:22:21.604 [1] INFO EndPointManager -> Adding Endpoint: StaticDataEndPoint
+01:22:21.617 [1] INFO EndPointManager -> Adding Endpoint: Logon
+01:22:21.619 [5] INFO SubscriberEndPoint`5 -> [QueryEndPoint] Connected
+01:22:21.619 [13] INFO SubscriberEndPoint`5 -> [StaticDataEndPoint] Connected

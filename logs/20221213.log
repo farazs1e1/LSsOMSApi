@@ -1,0 +1,260 @@
+2022-12-13 01:22:21.678 -08:00 [DBG] Hosting starting
+2022-12-13 01:22:21.723 -08:00 [INF] User profile is available. Using 'C:\Windows\system32\config\systemprofile\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2022-12-13 01:22:21.730 -08:00 [DBG] Reading data from file 'C:\Windows\system32\config\systemprofile\AppData\Local\ASP.NET\DataProtection-Keys\key-1b6ab4f5-8eb7-497f-99b4-c9b96e30d3b8.xml'.
+2022-12-13 01:22:21.735 -08:00 [DBG] Found key {1b6ab4f5-8eb7-497f-99b4-c9b96e30d3b8}.
+2022-12-13 01:22:21.747 -08:00 [DBG] Considering key {1b6ab4f5-8eb7-497f-99b4-c9b96e30d3b8} with expiration date 2023-03-06 12:37:22Z as default key.
+2022-12-13 01:22:21.755 -08:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=5.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2022-12-13 01:22:21.759 -08:00 [DBG] Decrypting secret element using Windows DPAPI.
+2022-12-13 01:22:21.760 -08:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=5.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2022-12-13 01:22:21.764 -08:00 [DBG] Opening CNG algorithm 'AES' from provider 'null' with chaining mode CBC.
+2022-12-13 01:22:21.766 -08:00 [DBG] Opening CNG algorithm 'SHA256' from provider 'null' with HMAC.
+2022-12-13 01:22:21.768 -08:00 [DBG] Using key {1b6ab4f5-8eb7-497f-99b4-c9b96e30d3b8} as the default key.
+2022-12-13 01:22:21.769 -08:00 [DBG] Key ring with default key {1b6ab4f5-8eb7-497f-99b4-c9b96e30d3b8} was loaded during application startup.
+2022-12-13 01:22:21.899 -08:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2022-12-13 01:22:21.920 -08:00 [INF] Starting IdentityServer4 version 4.1.1+cebd52f5bc61bdefc262fd20739d4d087c6f961f
+2022-12-13 01:22:21.927 -08:00 [INF] You are using the in-memory version of the persisted grant store. This will store consent decisions, authorization codes, refresh and reference tokens in memory only. If you are using any of those features in production, you want to switch to a different store implementation.
+2022-12-13 01:22:21.929 -08:00 [INF] Using the default authentication scheme Bearer for IdentityServer
+2022-12-13 01:22:21.929 -08:00 [INF] Authentication scheme Bearer is configured for IdentityServer, but it is not a scheme that supports signin (like cookies). If you support interactive logins via the browser, then a cookie-based scheme should be used.
+2022-12-13 01:22:21.929 -08:00 [DBG] Using Bearer as default ASP.NET Core scheme for authentication
+2022-12-13 01:22:21.929 -08:00 [DBG] Using Bearer as default ASP.NET Core scheme for sign-in
+2022-12-13 01:22:21.929 -08:00 [DBG] Using Bearer as default ASP.NET Core scheme for sign-out
+2022-12-13 01:22:21.929 -08:00 [DBG] Using Bearer as default ASP.NET Core scheme for challenge
+2022-12-13 01:22:21.929 -08:00 [DBG] Using Bearer as default ASP.NET Core scheme for forbid
+2022-12-13 01:22:22.005 -08:00 [DBG] Loaded hosting startup assembly OmsConfiguratorApi
+2022-12-13 01:22:22.005 -08:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-12-13 01:22:22.006 -08:00 [INF] Hosting environment: Production
+2022-12-13 01:22:22.006 -08:00 [INF] Content root path: F:\MyOMSServers\OMSConfigurator\API
+2022-12-13 01:22:22.006 -08:00 [DBG] Hosting started
+2022-12-13 01:22:22.020 -08:00 [INF] Request starting HTTP/1.1 GET http://localhost:45365/ - -
+2022-12-13 01:22:22.022 -08:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2022-12-13 01:22:22.022 -08:00 [VRB] All hosts are allowed.
+2022-12-13 01:22:22.053 -08:00 [DBG] No candidates found for the request path '/'
+2022-12-13 01:22:22.053 -08:00 [DBG] Request did not match any endpoints
+2022-12-13 01:22:22.058 -08:00 [INF] [Requested] { RequestId = 55b25fdd-a472-4832-bd37-4840ea9a52f4, MachineIpAddress = ::1, ClientInitiatedTimeStamp = , ServerInitiatedRequestTimeStamp = 13/12/2022 09:22:22:054 }
+2022-12-13 01:22:22.070 -08:00 [VRB] HandleAuthenticateAsync called
+2022-12-13 01:22:22.071 -08:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2022-12-13 01:22:22.075 -08:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2022-12-13 01:22:22.077 -08:00 [VRB] No endpoint entry found for request path: /
+2022-12-13 01:22:22.077 -08:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2022-12-13 01:22:22.087 -08:00 [DBG] The request path  does not match the path filter
+2022-12-13 01:22:22.098 -08:00 [INF] [Respond] { RequestId = 55b25fdd-a472-4832-bd37-4840ea9a52f4, ClientInitiatedTimeStamp = , ServerInitiatedRequestTimeStamp = 13/12/2022 09:22:22:054, ServerRespondTimeStamp = 13/12/2022 09:22:22:089 }
+2022-12-13 01:22:22.099 -08:00 [INF] Request finished HTTP/1.1 GET http://localhost:45365/ - - - 404 - - 80.8834ms
+2022-12-13 01:22:30.343 -08:00 [INF] Request starting HTTP/1.1 GET http://localhost:45365/swagger.html - -
+2022-12-13 01:22:30.343 -08:00 [VRB] All hosts are allowed.
+2022-12-13 01:22:30.343 -08:00 [DBG] No candidates found for the request path '/swagger.html'
+2022-12-13 01:22:30.343 -08:00 [DBG] Request did not match any endpoints
+2022-12-13 01:22:30.343 -08:00 [INF] [Requested] { RequestId = a026a443-f7d6-4c07-8706-0ebb9dd90932, MachineIpAddress = ::1, ClientInitiatedTimeStamp = , ServerInitiatedRequestTimeStamp = 13/12/2022 09:22:30:343 }
+2022-12-13 01:22:30.346 -08:00 [VRB] HandleAuthenticateAsync called
+2022-12-13 01:22:30.346 -08:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2022-12-13 01:22:30.347 -08:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2022-12-13 01:22:30.347 -08:00 [VRB] No endpoint entry found for request path: /swagger.html
+2022-12-13 01:22:30.347 -08:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2022-12-13 01:22:30.347 -08:00 [DBG] The request path  does not match the path filter
+2022-12-13 01:22:30.348 -08:00 [INF] [Respond] { RequestId = a026a443-f7d6-4c07-8706-0ebb9dd90932, ClientInitiatedTimeStamp = , ServerInitiatedRequestTimeStamp = 13/12/2022 09:22:30:343, ServerRespondTimeStamp = 13/12/2022 09:22:30:347 }
+2022-12-13 01:22:30.348 -08:00 [INF] Request finished HTTP/1.1 GET http://localhost:45365/swagger.html - - - 404 - - 5.3716ms
+2022-12-13 01:22:37.858 -08:00 [INF] Request starting HTTP/1.1 GET http://localhost:45365/swagger.html - -
+2022-12-13 01:22:37.858 -08:00 [VRB] All hosts are allowed.
+2022-12-13 01:22:37.858 -08:00 [DBG] No candidates found for the request path '/swagger.html'
+2022-12-13 01:22:37.859 -08:00 [DBG] Request did not match any endpoints
+2022-12-13 01:22:37.859 -08:00 [INF] [Requested] { RequestId = 622893f0-3565-4096-921b-dab313a010cb, MachineIpAddress = ::1, ClientInitiatedTimeStamp = , ServerInitiatedRequestTimeStamp = 13/12/2022 09:22:37:859 }
+2022-12-13 01:22:37.859 -08:00 [VRB] HandleAuthenticateAsync called
+2022-12-13 01:22:37.859 -08:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2022-12-13 01:22:37.861 -08:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2022-12-13 01:22:37.861 -08:00 [VRB] No endpoint entry found for request path: /swagger.html
+2022-12-13 01:22:37.861 -08:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2022-12-13 01:22:37.862 -08:00 [DBG] The request path  does not match the path filter
+2022-12-13 01:22:37.862 -08:00 [INF] [Respond] { RequestId = 622893f0-3565-4096-921b-dab313a010cb, ClientInitiatedTimeStamp = , ServerInitiatedRequestTimeStamp = 13/12/2022 09:22:37:859, ServerRespondTimeStamp = 13/12/2022 09:22:37:862 }
+2022-12-13 01:22:37.862 -08:00 [INF] Request finished HTTP/1.1 GET http://localhost:45365/swagger.html - - - 404 - - 3.6620ms
+2022-12-13 01:22:44.719 -08:00 [INF] Request starting HTTP/1.1 GET http://localhost:45365/swagger - -
+2022-12-13 01:22:44.719 -08:00 [VRB] All hosts are allowed.
+2022-12-13 01:22:44.719 -08:00 [DBG] No candidates found for the request path '/swagger'
+2022-12-13 01:22:44.719 -08:00 [DBG] Request did not match any endpoints
+2022-12-13 01:22:44.719 -08:00 [INF] [Requested] { RequestId = b88650c1-4601-47e4-a293-69d8c91a3561, MachineIpAddress = ::1, ClientInitiatedTimeStamp = , ServerInitiatedRequestTimeStamp = 13/12/2022 09:22:44:719 }
+2022-12-13 01:22:44.719 -08:00 [VRB] HandleAuthenticateAsync called
+2022-12-13 01:22:44.720 -08:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2022-12-13 01:22:44.720 -08:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2022-12-13 01:22:44.720 -08:00 [VRB] No endpoint entry found for request path: /swagger
+2022-12-13 01:22:44.720 -08:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2022-12-13 01:22:44.720 -08:00 [INF] [Respond] { RequestId = b88650c1-4601-47e4-a293-69d8c91a3561, ClientInitiatedTimeStamp = , ServerInitiatedRequestTimeStamp = 13/12/2022 09:22:44:719, ServerRespondTimeStamp = 13/12/2022 09:22:44:72 }
+2022-12-13 01:22:44.720 -08:00 [INF] Request finished HTTP/1.1 GET http://localhost:45365/swagger - - - 301 - - 1.4993ms
+2022-12-13 01:22:44.724 -08:00 [INF] Request starting HTTP/1.1 GET http://localhost:45365/swagger/index.html - -
+2022-12-13 01:22:44.724 -08:00 [VRB] All hosts are allowed.
+2022-12-13 01:22:44.724 -08:00 [DBG] No candidates found for the request path '/swagger/index.html'
+2022-12-13 01:22:44.724 -08:00 [DBG] Request did not match any endpoints
+2022-12-13 01:22:44.724 -08:00 [INF] [Requested] { RequestId = 256636e2-f579-4e92-9399-cd6ed7154ff0, MachineIpAddress = ::1, ClientInitiatedTimeStamp = , ServerInitiatedRequestTimeStamp = 13/12/2022 09:22:44:724 }
+2022-12-13 01:22:44.724 -08:00 [VRB] HandleAuthenticateAsync called
+2022-12-13 01:22:44.724 -08:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2022-12-13 01:22:44.724 -08:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2022-12-13 01:22:44.724 -08:00 [VRB] No endpoint entry found for request path: /swagger/index.html
+2022-12-13 01:22:44.724 -08:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2022-12-13 01:22:44.778 -08:00 [INF] [Respond] { RequestId = 256636e2-f579-4e92-9399-cd6ed7154ff0, ClientInitiatedTimeStamp = , ServerInitiatedRequestTimeStamp = 13/12/2022 09:22:44:724, ServerRespondTimeStamp = 13/12/2022 09:22:44:775 }
+2022-12-13 01:22:44.778 -08:00 [INF] Request finished HTTP/1.1 GET http://localhost:45365/swagger/index.html - - - 200 - text/html;charset=utf-8 54.3357ms
+2022-12-13 01:22:44.782 -08:00 [INF] Request starting HTTP/1.1 GET http://localhost:45365/swagger/swagger-ui.css - -
+2022-12-13 01:22:44.782 -08:00 [VRB] All hosts are allowed.
+2022-12-13 01:22:44.782 -08:00 [DBG] No candidates found for the request path '/swagger/swagger-ui.css'
+2022-12-13 01:22:44.782 -08:00 [DBG] Request did not match any endpoints
+2022-12-13 01:22:44.782 -08:00 [INF] [Requested] { RequestId = b35eca8a-6cf6-455c-b6f5-0da06edab3b2, MachineIpAddress = ::1, ClientInitiatedTimeStamp = , ServerInitiatedRequestTimeStamp = 13/12/2022 09:22:44:782 }
+2022-12-13 01:22:44.782 -08:00 [VRB] HandleAuthenticateAsync called
+2022-12-13 01:22:44.782 -08:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2022-12-13 01:22:44.782 -08:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2022-12-13 01:22:44.782 -08:00 [VRB] No endpoint entry found for request path: /swagger/swagger-ui.css
+2022-12-13 01:22:44.782 -08:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2022-12-13 01:22:44.785 -08:00 [INF] Request starting HTTP/1.1 GET http://localhost:45365/swagger/swagger-ui-bundle.js - -
+2022-12-13 01:22:44.785 -08:00 [VRB] Range header's value is empty.
+2022-12-13 01:22:44.785 -08:00 [VRB] All hosts are allowed.
+2022-12-13 01:22:44.785 -08:00 [DBG] No candidates found for the request path '/swagger/swagger-ui-bundle.js'
+2022-12-13 01:22:44.785 -08:00 [DBG] Request did not match any endpoints
+2022-12-13 01:22:44.785 -08:00 [INF] [Requested] { RequestId = 0fa29351-a1fb-4d93-af3d-be3c44eafabc, MachineIpAddress = ::1, ClientInitiatedTimeStamp = , ServerInitiatedRequestTimeStamp = 13/12/2022 09:22:44:785 }
+2022-12-13 01:22:44.785 -08:00 [VRB] HandleAuthenticateAsync called
+2022-12-13 01:22:44.785 -08:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2022-12-13 01:22:44.785 -08:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2022-12-13 01:22:44.785 -08:00 [VRB] No endpoint entry found for request path: /swagger/swagger-ui-bundle.js
+2022-12-13 01:22:44.785 -08:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2022-12-13 01:22:44.785 -08:00 [VRB] Range header's value is empty.
+2022-12-13 01:22:44.798 -08:00 [INF] Request starting HTTP/1.1 GET http://localhost:45365/swagger/swagger-ui-standalone-preset.js - -
+2022-12-13 01:22:44.798 -08:00 [VRB] All hosts are allowed.
+2022-12-13 01:22:44.798 -08:00 [DBG] No candidates found for the request path '/swagger/swagger-ui-standalone-preset.js'
+2022-12-13 01:22:44.798 -08:00 [DBG] Request did not match any endpoints
+2022-12-13 01:22:44.798 -08:00 [INF] [Requested] { RequestId = 8eeca5c0-b9f3-47e5-abcf-c965ffc4517a, MachineIpAddress = ::1, ClientInitiatedTimeStamp = , ServerInitiatedRequestTimeStamp = 13/12/2022 09:22:44:798 }
+2022-12-13 01:22:44.799 -08:00 [VRB] HandleAuthenticateAsync called
+2022-12-13 01:22:44.799 -08:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2022-12-13 01:22:44.799 -08:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2022-12-13 01:22:44.799 -08:00 [VRB] No endpoint entry found for request path: /swagger/swagger-ui-standalone-preset.js
+2022-12-13 01:22:44.799 -08:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2022-12-13 01:22:44.799 -08:00 [VRB] Range header's value is empty.
+2022-12-13 01:22:44.802 -08:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2022-12-13 01:22:44.802 -08:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2022-12-13 01:22:44.806 -08:00 [INF] [Respond] { RequestId = b35eca8a-6cf6-455c-b6f5-0da06edab3b2, ClientInitiatedTimeStamp = , ServerInitiatedRequestTimeStamp = 13/12/2022 09:22:44:782, ServerRespondTimeStamp = 13/12/2022 09:22:44:787 }
+2022-12-13 01:22:44.806 -08:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2022-12-13 01:22:44.807 -08:00 [INF] Request finished HTTP/1.1 GET http://localhost:45365/swagger/swagger-ui.css - - - 200 142933 text/css 24.5230ms
+2022-12-13 01:22:44.807 -08:00 [INF] [Respond] { RequestId = 8eeca5c0-b9f3-47e5-abcf-c965ffc4517a, ClientInitiatedTimeStamp = , ServerInitiatedRequestTimeStamp = 13/12/2022 09:22:44:798, ServerRespondTimeStamp = 13/12/2022 09:22:44:799 }
+2022-12-13 01:22:44.807 -08:00 [INF] Request finished HTTP/1.1 GET http://localhost:45365/swagger/swagger-ui-standalone-preset.js - - - 200 311804 application/javascript 9.0863ms
+2022-12-13 01:22:44.809 -08:00 [INF] [Respond] { RequestId = 0fa29351-a1fb-4d93-af3d-be3c44eafabc, ClientInitiatedTimeStamp = , ServerInitiatedRequestTimeStamp = 13/12/2022 09:22:44:785, ServerRespondTimeStamp = 13/12/2022 09:22:44:787 }
+2022-12-13 01:22:44.810 -08:00 [INF] Request finished HTTP/1.1 GET http://localhost:45365/swagger/swagger-ui-bundle.js - - - 200 986342 application/javascript 24.7740ms
+2022-12-13 01:22:44.952 -08:00 [INF] Request starting HTTP/1.1 GET http://localhost:45365/swagger/favicon-32x32.png - -
+2022-12-13 01:22:44.952 -08:00 [VRB] All hosts are allowed.
+2022-12-13 01:22:44.952 -08:00 [DBG] No candidates found for the request path '/swagger/favicon-32x32.png'
+2022-12-13 01:22:44.952 -08:00 [DBG] Request did not match any endpoints
+2022-12-13 01:22:44.952 -08:00 [INF] [Requested] { RequestId = 7f44db31-0f5b-4f36-b50f-a50b0f52551a, MachineIpAddress = ::1, ClientInitiatedTimeStamp = , ServerInitiatedRequestTimeStamp = 13/12/2022 09:22:44:952 }
+2022-12-13 01:22:44.952 -08:00 [VRB] HandleAuthenticateAsync called
+2022-12-13 01:22:44.952 -08:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2022-12-13 01:22:44.952 -08:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2022-12-13 01:22:44.952 -08:00 [VRB] No endpoint entry found for request path: /swagger/favicon-32x32.png
+2022-12-13 01:22:44.952 -08:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2022-12-13 01:22:44.952 -08:00 [VRB] Range header's value is empty.
+2022-12-13 01:22:44.952 -08:00 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2022-12-13 01:22:44.952 -08:00 [INF] [Respond] { RequestId = 7f44db31-0f5b-4f36-b50f-a50b0f52551a, ClientInitiatedTimeStamp = , ServerInitiatedRequestTimeStamp = 13/12/2022 09:22:44:952, ServerRespondTimeStamp = 13/12/2022 09:22:44:952 }
+2022-12-13 01:22:44.952 -08:00 [INF] Request finished HTTP/1.1 GET http://localhost:45365/swagger/favicon-32x32.png - - - 200 628 image/png 0.8128ms
+2022-12-13 01:24:22.071 -08:00 [DBG] HttpMessageHandler expired after 120000ms for client 'IdentityServer:BackChannelLogoutClient'
+2022-12-13 01:24:32.081 -08:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2022-12-13 01:24:32.084 -08:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0291ms - processed: 0 items - remaining: 1 items
+2022-12-13 01:24:42.088 -08:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2022-12-13 01:24:42.088 -08:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0021ms - processed: 0 items - remaining: 1 items
+2022-12-13 01:24:52.092 -08:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2022-12-13 01:24:52.092 -08:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0013ms - processed: 0 items - remaining: 1 items
+2022-12-13 01:25:02.103 -08:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2022-12-13 01:25:02.103 -08:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0013ms - processed: 0 items - remaining: 1 items
+2022-12-13 01:25:12.116 -08:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2022-12-13 01:25:12.116 -08:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0011ms - processed: 0 items - remaining: 1 items
+2022-12-13 01:25:22.130 -08:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2022-12-13 01:25:22.130 -08:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0012ms - processed: 0 items - remaining: 1 items
+2022-12-13 01:25:32.143 -08:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2022-12-13 01:25:32.143 -08:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0013ms - processed: 0 items - remaining: 1 items
+2022-12-13 01:25:42.156 -08:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2022-12-13 01:25:42.157 -08:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0013ms - processed: 0 items - remaining: 1 items
+2022-12-13 01:25:52.170 -08:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2022-12-13 01:25:52.170 -08:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0169ms - processed: 0 items - remaining: 1 items
+2022-12-13 01:26:02.183 -08:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2022-12-13 01:26:02.183 -08:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0011ms - processed: 0 items - remaining: 1 items
+2022-12-13 01:26:12.196 -08:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2022-12-13 01:26:12.197 -08:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0012ms - processed: 0 items - remaining: 1 items
+2022-12-13 01:26:22.210 -08:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2022-12-13 01:26:22.210 -08:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0012ms - processed: 0 items - remaining: 1 items
+2022-12-13 01:26:32.223 -08:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2022-12-13 01:26:32.223 -08:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0014ms - processed: 0 items - remaining: 1 items
+2022-12-13 01:26:42.237 -08:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2022-12-13 01:26:42.237 -08:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0011ms - processed: 0 items - remaining: 1 items
+2022-12-13 01:26:52.250 -08:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2022-12-13 01:26:52.250 -08:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0015ms - processed: 0 items - remaining: 1 items
+2022-12-13 01:27:02.263 -08:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2022-12-13 01:27:02.263 -08:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0011ms - processed: 0 items - remaining: 1 items
+2022-12-13 01:27:12.277 -08:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2022-12-13 01:27:12.277 -08:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0011ms - processed: 0 items - remaining: 1 items
+2022-12-13 01:27:22.290 -08:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2022-12-13 01:27:22.290 -08:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0011ms - processed: 0 items - remaining: 1 items
+2022-12-13 01:27:32.303 -08:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2022-12-13 01:27:32.304 -08:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0017ms - processed: 0 items - remaining: 1 items
+2022-12-13 01:27:42.310 -08:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2022-12-13 01:27:42.311 -08:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0017ms - processed: 0 items - remaining: 1 items
+2022-12-13 01:27:52.324 -08:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2022-12-13 01:27:52.324 -08:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0016ms - processed: 0 items - remaining: 1 items
+2022-12-13 01:28:02.326 -08:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2022-12-13 01:28:02.326 -08:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0017ms - processed: 0 items - remaining: 1 items
+2022-12-13 01:28:12.339 -08:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2022-12-13 01:28:12.339 -08:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0013ms - processed: 0 items - remaining: 1 items
+2022-12-13 01:28:22.353 -08:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2022-12-13 01:28:22.353 -08:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0014ms - processed: 0 items - remaining: 1 items
+2022-12-13 01:28:32.366 -08:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2022-12-13 01:28:32.366 -08:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0011ms - processed: 0 items - remaining: 1 items
+2022-12-13 01:28:42.381 -08:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2022-12-13 01:28:42.381 -08:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0013ms - processed: 0 items - remaining: 1 items
+2022-12-13 01:28:52.394 -08:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2022-12-13 01:28:52.394 -08:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0012ms - processed: 0 items - remaining: 1 items
+2022-12-13 01:29:02.408 -08:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2022-12-13 01:29:02.408 -08:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0012ms - processed: 0 items - remaining: 1 items
+2022-12-13 01:29:12.421 -08:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2022-12-13 01:29:12.421 -08:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0014ms - processed: 0 items - remaining: 1 items
+2022-12-13 01:29:22.434 -08:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2022-12-13 01:29:22.434 -08:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0015ms - processed: 0 items - remaining: 1 items
+2022-12-13 01:29:32.448 -08:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2022-12-13 01:29:32.448 -08:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0018ms - processed: 0 items - remaining: 1 items
+2022-12-13 01:29:42.461 -08:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2022-12-13 01:29:42.461 -08:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0014ms - processed: 0 items - remaining: 1 items
+2022-12-13 01:29:52.474 -08:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2022-12-13 01:29:52.475 -08:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0009ms - processed: 0 items - remaining: 1 items
+2022-12-13 01:30:02.488 -08:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2022-12-13 01:30:02.488 -08:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0009ms - processed: 0 items - remaining: 1 items
+2022-12-13 01:30:12.501 -08:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2022-12-13 01:30:12.501 -08:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0009ms - processed: 0 items - remaining: 1 items
+2022-12-13 01:30:22.514 -08:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2022-12-13 01:30:22.515 -08:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.001ms - processed: 0 items - remaining: 1 items
+2022-12-13 01:30:32.528 -08:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2022-12-13 01:30:32.528 -08:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0011ms - processed: 0 items - remaining: 1 items
+2022-12-13 01:30:42.541 -08:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2022-12-13 01:30:42.541 -08:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0011ms - processed: 0 items - remaining: 1 items
+2022-12-13 01:30:52.555 -08:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2022-12-13 01:30:52.555 -08:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.001ms - processed: 0 items - remaining: 1 items
+2022-12-13 01:31:02.568 -08:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2022-12-13 01:31:02.568 -08:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0008ms - processed: 0 items - remaining: 1 items
+2022-12-13 01:31:12.581 -08:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2022-12-13 01:31:12.581 -08:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0012ms - processed: 0 items - remaining: 1 items
+2022-12-13 01:31:22.595 -08:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2022-12-13 01:31:22.595 -08:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0012ms - processed: 0 items - remaining: 1 items
+2022-12-13 01:31:32.608 -08:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2022-12-13 01:31:32.608 -08:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.001ms - processed: 0 items - remaining: 1 items
+2022-12-13 01:31:42.621 -08:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2022-12-13 01:31:42.621 -08:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0013ms - processed: 0 items - remaining: 1 items
+2022-12-13 01:31:52.635 -08:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2022-12-13 01:31:52.635 -08:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.001ms - processed: 0 items - remaining: 1 items
+2022-12-13 01:32:02.648 -08:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2022-12-13 01:32:02.648 -08:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0011ms - processed: 0 items - remaining: 1 items
+2022-12-13 01:32:12.661 -08:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2022-12-13 01:32:12.662 -08:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0009ms - processed: 0 items - remaining: 1 items
+2022-12-13 01:32:22.675 -08:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2022-12-13 01:32:22.675 -08:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0011ms - processed: 0 items - remaining: 1 items
+2022-12-13 01:32:32.688 -08:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2022-12-13 01:32:32.688 -08:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0013ms - processed: 0 items - remaining: 1 items
+2022-12-13 01:32:42.702 -08:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2022-12-13 01:32:42.702 -08:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0011ms - processed: 0 items - remaining: 1 items
+2022-12-13 01:32:52.715 -08:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2022-12-13 01:32:52.715 -08:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.001ms - processed: 0 items - remaining: 1 items
+2022-12-13 01:33:02.728 -08:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2022-12-13 01:33:02.728 -08:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0008ms - processed: 0 items - remaining: 1 items
+2022-12-13 01:33:12.742 -08:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2022-12-13 01:33:12.742 -08:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.001ms - processed: 0 items - remaining: 1 items
+2022-12-13 01:33:22.755 -08:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2022-12-13 01:33:22.755 -08:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0009ms - processed: 0 items - remaining: 1 items
+2022-12-13 01:33:32.768 -08:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2022-12-13 01:33:32.768 -08:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0011ms - processed: 0 items - remaining: 1 items
+2022-12-13 01:33:42.782 -08:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2022-12-13 01:33:42.783 -08:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0011ms - processed: 0 items - remaining: 1 items
